@@ -1,0 +1,20 @@
+static class PAIR implements Comparable<PAIR>{
+        int x;
+        int y;
+
+        public PAIR(int px , int py){
+            x = px;
+            y = py;
+        }
+
+        @Override
+        public int compareTo(PAIR pair){
+            if (x > pair.x)
+                return 1;
+            else if (x == pair.x)
+                return 0;
+            else
+                return -1;
+        }
+
+    }
