@@ -1,0 +1,14 @@
+ class myComparator implements Comparator<int []> {
+        public int compare(int [] a, int [] b) {
+            return a[1] - b[1];
+        }
+    }
+
+
+if the key value is same then we have to sort on the value then use below code
+class myComparator implements Comparator<int []> {
+        public int compare(int [] a, int [] b) {
+            return (a[0]==b[0])?a[1]-b[1]:a[0]-b[0];
+        }
+    }
+   

@@ -1,0 +1,7 @@
+
+
+  PriorityQueue<Integer> pQueue = new PriorityQueue<Integer>((a, b) -> b - a);
+
+  for double and float :- 
+ 
+PriorityQueue<Double> pq=new PriorityQueue<>(Collections.reverseOrder());
